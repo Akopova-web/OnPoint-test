@@ -1,0 +1,30 @@
+.wrapper {
+    display: flex;
+    height: 1024px;
+
+    .main-screen,
+    .info-screen,
+    .product-screen {
+        flex-shrink: 0;
+        width: 100%;
+        height: 100%;
+
+        .home-btn {
+            height: 20px;
+            margin: 20px;
+        }
+    }
+    .main-screen {
+        background-image: url('/images/bg-1.png');
+
+        .main-screen__textbox {
+            text-transform: uppercase;
+        }
+    }
+    .info-screen {
+        background-image: url('/images/bg-2.png');
+    }
+    .product-screen {
+        background-image: url('/images/bg-3.png');
+    }
+}
